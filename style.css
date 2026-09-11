@@ -75,3 +75,25 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.appointment-form input,
+.appointment-form select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.appointment-form button {
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
