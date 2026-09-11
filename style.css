@@ -75,3 +75,24 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.patient-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.patient-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.patient-form button {
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
