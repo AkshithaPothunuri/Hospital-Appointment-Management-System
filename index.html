@@ -28,20 +28,62 @@
     </section>
 
     <section id="patients">
-        <h2>Patient Registration</h2>
-        <p>Register and manage patient information.</p>
+    <h2>Patient Registration</h2>
+    <p>Register and manage patient information.</p>
+
+    <form class="patient-form">
+        <input type="text" placeholder="Patient Full Name" required>
+        <input type="number" placeholder="Age" min="1" max="120" required>
+        <input type="text" placeholder="Phone Number" required>
+        <button type="submit">Register Patient</button>
+    </form>
     </section>
 
     <section id="doctors">
-        <h2>Doctor Management</h2>
-        <p>View doctors and their specializations.</p>
+    <h2>Doctor Management</h2>
+    <p>View doctors and their specializations.</p>
+
+    <div class="doctor-list">
+        <div class="doctor-card">
+            <h3>Dr. Ravi Kumar</h3>
+            <p>Cardiologist</p>
+            <p class="available">Available: Monday - Friday</p>
+        </div>
+
+        <div class="doctor-card">
+            <h3>Dr. Priya Sharma</h3>
+            <p>Dermatologist</p>
+            <p class="available">Available: Monday - Friday</p>
+        </div>
+
+        <div class="doctor-card">
+            <h3>Dr. Arjun Rao</h3>
+            <p>General Physician</p>
+            <p class="available">Available: Monday - Friday</p>
+        </div>
+    </div>
     </section>
 
     <section id="appointments">
-        <h2>Appointment Scheduling</h2>
-        <p>Schedule appointments between patients and doctors.</p>
-    </section>
+    <h2>Appointment Scheduling</h2>
+    <p>Schedule appointments between patients and doctors.</p>
 
+    <form class="appointment-form">
+        <input type="text" placeholder="Patient Full Name" required>
+
+        <select required>
+            <option value="">Select Doctor</option>
+            <option>Dr. Ravi Kumar - Cardiologist</option>
+            <option>Dr. Priya Sharma - Dermatologist</option>
+            <option>Dr. Arjun Rao - General Physician</option>
+        </select>
+        <input type="text" placeholder="Reason for Visit" required>
+        <input type="date" required>
+        <input type="time" required>
+
+        <button type="submit">Schedule Appointment</button>
+    </form>
+    </section>
     <section id="history">
     <h2>Appointment History</h2>
     <p>View previous and upcoming appointments.</p>
