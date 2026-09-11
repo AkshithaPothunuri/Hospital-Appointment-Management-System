@@ -75,3 +75,24 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.history-table th,
+.history-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.history-table th {
+    background-color: #1769aa;
+    color: white;
+}
+
+.history-table tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
